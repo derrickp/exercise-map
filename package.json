@@ -7,13 +7,16 @@
   "license": "MIT",
   "dependencies": {
     "@types/mapbox-gl": "^0.42.0",
+    "http-server": "^0.10.0",
     "mapbox-gl": "^0.43.0",
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "start": "http-server"
   }
 }
