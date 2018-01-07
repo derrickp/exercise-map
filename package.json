@@ -6,8 +6,9 @@
   "author": "Derrick Plotsky <derrickplotsky@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/mapbox-gl": "^0.42.0",
+    "mapbox-gl": "^0.43.0",
     "typescript": "^2.6.2"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
